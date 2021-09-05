@@ -12,7 +12,8 @@ function draw(){
     background(82, 84, 209);
 
     xPos = xPos + 1;
-    console.log(xPos);
+    console.log("counter: " + xPos);
+    // String("counter:" + xPos);
 
     fill(25, 11, 71);
     circle(xPos, yPos, 10);
