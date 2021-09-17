@@ -22,38 +22,12 @@ function draw(){
             fill(10, 88, 100);
             circle(xPos[i], yPos[i], 10);
 
-            //once all balls reach 500 balls are reseted back to 0
+            //once all balls reach 500, balls are reseted back to 0
             if(yPos[i] > 500){
                 yPos[i] = 0;
             }
             
         }
-
-        // console.log("this is 0 " +yPos[0]);
-        // console.log("this is 1 " +yPos[1]);
-        // console.log("this is 2 " +yPos[2]);
-
-    
-
-
-    // // positions[i] = positions[i] + yPos;
-    // fill(10, 88, 100);
-    // // circle(250, yPos, 10);
-
-    // positions.push(yPos);
-    // positions.shift();
-
-    // for(var i = 0; i < positions.length; i++) {
-    //     circle(250, positions[0], 20);
-    //     positions[0] = positions[0] + yPos;
-    //     if(positions[i] != 50){
-    //         positions[i] = positions[i] + yPos;
-    //     }
-    //     console.log("this is position " + positions[0]);
-    //     console.log("this is position 1 " + positions[1]);
-
-    // }
-
-    
+ 
 }
 
