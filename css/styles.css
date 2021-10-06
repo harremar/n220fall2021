@@ -105,6 +105,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border: 2px solid #3D4252;
+
   
 }
 .game a {
@@ -115,7 +117,7 @@ p {
 }
 .game:hover {
   background-color: #803516;
-  border: 5px solid black;
+  border: 5px solid #3D4252;
 
 }
 
