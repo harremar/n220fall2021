@@ -8,9 +8,12 @@ function calculate(){
     let tip =  Number((cost * 0.1).toFixed(2)); //Rounds to 100th place
     //get total value. Add cost and tip
     let total = Number((cost + tip).toFixed(2));
+
+    //tells user tip amount and total amount
+    let message = "Tip: $" + tip + "  Total: $" + total;
     
     //message would display to the page
-    dvMessage.innerHTML = "Tip: $" + tip + "  Total: $" + total;
+    dvMessage.innerHTML = message;
     //message would display to the console
-    console.log("Tip: $"+ tip + "  Total: $" + total)
+    console.log(message)
 }

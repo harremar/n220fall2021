@@ -9,5 +9,5 @@ function sayHello(){
     //shows message in the console
     console.log(greeting);
     //shows message on screen
-    dvMessage.innerHTML = "Hello " + name;
+    dvMessage.innerHTML = greeting;
 }
