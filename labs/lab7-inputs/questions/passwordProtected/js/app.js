@@ -8,8 +8,8 @@ function submit(){
     let name2 = txtStringPassword.value;
 
     //variable options that might print out
-    let success = "Yay Success!! :D";
-    let wrong = "Wrong info :/";
+    let success = correct(); //correct function is called
+    let wrong = incorrect(); //incorrect function is called
 
     //test to see if both names equal eachother
     //also test to see if user input values into each feild
@@ -26,4 +26,14 @@ function submit(){
         dvMessage.innerHTML = wrong;
 
     }
+}
+//function for incorrect message
+function incorrect(){
+    let wrongMessage = "Wrong info :/"
+    return wrongMessage
+}
+//function for correct message
+function correct(){
+    let successMessage = "Yay Success!! :D"
+    return successMessage
 }

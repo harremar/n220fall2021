@@ -9,11 +9,17 @@ function calculate(){
     //get total value. Add cost and tip
     let total = Number((cost + tip).toFixed(2));
 
-    //tells user tip amount and total amount
-    let message = "Tip: $" + tip + "  Total: $" + total;
+    //tells user tip amount and total amount. result function is called
+    let message = results(tip, total);
     
     //message would display to the page
     dvMessage.innerHTML = message;
     //message would display to the console
     console.log(message)
+}
+
+//results holds theMessage and returns to cal function
+function results(tip, total){
+    let theMessage  = "Tip: $" + tip + "  Total: $" + total;
+    return theMessage;
 }

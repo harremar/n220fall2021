@@ -39,10 +39,17 @@ function calDistance(){
     }
 
     //equation
-    d = Math.sqrt( xDiff*xDiff + yDiff*yDiff); 
-        //shows in console distance
-        console.log("Distance: " + d)
+    d = totalDistance(xDiff,yDiff); 
+        //shows in console distance. calls the totalDistance function
+        console.log(d)
 
     //show output on the screen
-    dvMessage.innerHTML = "Distance: " + d;
+    dvMessage.innerHTML = d
+}
+
+function totalDistance(xDiff, yDiff){
+    //equation
+    let theDistance = Math.sqrt( xDiff*xDiff + yDiff*yDiff); 
+    return theDistance
+    
 }
