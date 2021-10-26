@@ -11,6 +11,6 @@ function generate() {
 
 function random() {
   //generates random number 1 through 10
-  randomNumber = Math.floor(Math.random() * 10);
+  randomNumber = Math.floor(Math.random() * 10 +1);
   return randomNumber;
 }
