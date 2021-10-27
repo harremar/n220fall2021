@@ -1,7 +1,6 @@
 //this gets the ids in the html
 let txtString = document.getElementById("txtNum");
 let dvMessage = document.getElementById("dvMessage");
-
 //this function calculates the number. Is called when button is clicked
 function calculate() {
   //get the user input
@@ -16,7 +15,6 @@ function calculate() {
   //shows message on screen
   dvMessage.innerHTML = divide;
 }
-
 //function that calulates divisiblilty
 function divisibleBy7(number) {
   //calculate first
