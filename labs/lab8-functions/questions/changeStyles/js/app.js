@@ -16,47 +16,18 @@ function squareStyle(square) {
   square.style.margin = "10px";
 }
 
-//changes first square
-function changeStyle() {
-  if (sq1.style.backgroundColor == "red") {
-    sq1.style.width = "70px";
-    sq1.style.height = "100px";
-    sq1.style.backgroundColor = "blue";
-    sq1.style.margin = "10px";
+//changes squares
+function changeStyle(s) {
+  if (s.style.backgroundColor == "red") {
+    s.style.width = "70px";
+    s.style.height = "100px";
+    s.style.backgroundColor = "blue";
+    s.style.margin = "10px";
   } else {
-    sq1.style.width = "50px";
-    sq1.style.height = "50px";
-    sq1.style.backgroundColor = "red";
-    sq1.style.margin = "10px";
+    s.style.width = "50px";
+    s.style.height = "50px";
+    s.style.backgroundColor = "red";
+    s.style.margin = "10px";
   }
-}
-
-//changes second square
-function changeStyle2() {
-  if (sq2.style.backgroundColor == "red") {
-    sq2.style.width = "70px";
-    sq2.style.height = "100px";
-    sq2.style.backgroundColor = "blue";
-    sq2.style.margin = "10px";
-  } else {
-    sq2.style.width = "50px";
-    sq2.style.height = "50px";
-    sq2.style.backgroundColor = "red";
-    sq2.style.margin = "10px";
-  }
-}
-
-//changes last square
-function changeStyle3() {
-  if (sq3.style.backgroundColor == "red") {
-    sq3.style.width = "70px";
-    sq3.style.height = "100px";
-    sq3.style.backgroundColor = "blue";
-    sq3.style.margin = "10px";
-  } else {
-    sq3.style.width = "50px";
-    sq3.style.height = "50px";
-    sq3.style.backgroundColor = "red";
-    sq3.style.margin = "10px";
-  }
+  return s;
 }
