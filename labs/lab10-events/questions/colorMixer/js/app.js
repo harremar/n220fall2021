@@ -1,8 +1,9 @@
+//get elemtents in the html
 let colorDisplay = document.getElementById("colorDisplay");
 let rgbColor = document.getElementById("rgbColor");
-
 let colorChangers = document.getElementsByClassName("colorChangers");
 
+//for loop that adds a listener and styling to every button
 for (i = 0; i < colorChangers.length; i++) {
   console.log(colorChangers[i]);
   colorChangers[i].addEventListener("click", mixColor);
@@ -10,7 +11,6 @@ for (i = 0; i < colorChangers.length; i++) {
   colorChangers[i].style.height = "40px";
   colorChangers[i].style.backgroundColor = "#ccc";
   colorChangers[i].style.border = "#ccc solid 3px";
-
   colorChangers[i].style.color = "white";
 }
 

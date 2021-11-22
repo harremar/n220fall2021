@@ -1,0 +1,192 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #bbb;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#background {
+  width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+  /* background-color: yellowgreen; */
+}
+#title {
+  font-size: 50px;
+  text-align: center;
+  margin: 50px auto 20px auto;
+}
+#dvresult {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+#dvmessage {
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+#table {
+  width: 650px;
+  height: 520px;
+  /* background-color: black; */
+  margin: 0 auto;
+  padding-bottom: 50px;
+  right: 440px;
+  z-index: 0;
+}
+#dvendgame {
+  /* background-color: rgb(16, 58, 77); */
+  width: 650px;
+  height: 520px;
+  position: absolute;
+  margin: -570px 350px 0 350px;
+
+  display: none;
+  /* margin-top: -400px; */
+}
+.card {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(34, 92, 117);
+  display: flex;
+  float: left;
+  margin: 5px;
+  font-size: 100px;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: rgb(91, 102, 107) 2px 2px 20px;
+}
+.card:hover {
+  background-color: rgb(16, 58, 77);
+}
+.dog1 {
+  background-image: url(../images/dog1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog2 {
+  background-image: url(../images/dog2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog3 {
+  background-image: url(../images/dog3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog4 {
+  background-image: url(../images/dog4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog5 {
+  background-image: url(../images/dog5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog6 {
+  background-image: url(../images/dog6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog7 {
+  background-image: url(../images/dog7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog8 {
+  background-image: url(../images/dog8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog9 {
+  background-image: url(../images/dog9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog10 {
+  background-image: url(../images/dog10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hidecard {
+  background-image: url(../images/card.jpg);
+  z-index: 1;
+}
+.hidecard:hover {
+  background-image: url(../images/card2.jpg);
+  z-index: 1;
+}
+
+#result {
+  background-color: black;
+  height: 100px;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+
+  /* display: none; */
+}
+#dvTotalTurns {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  /* background-color: green; */
+}
+#dvTime {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  /* background-color: green; */
+}
+.dvreset {
+  width: 300px;
+  height: 100px;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+#resetBtn {
+  /* margin: auto 600px 50px 600px; */
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(34, 92, 117);
+  color: #fff;
+  border-radius: 40px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+#resetBtn:hover {
+  background-color: #fff;
+  color: rgb(34, 92, 117);
+  border: 3px solid rgb(34, 92, 117);
+}
+
+.match {
+  background-color: #fff;
+  /* background-image: url(../images/match.jpeg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

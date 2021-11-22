@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 id = "title">Hangman</h1>
+    <!-- Made by Marielle Harrell -->
+    <p>Use the alphabet to guess a word</p>
+    <p id="category">Category is: Animals</p>
+    <div id="result"> You Win!</div>
+        <div id="playAgain">
+            <button id="restart" onclick="window.location.reload(false)">Do you want to play again?</button>
+        </div>
+    <div id="game">
+        <div id="dvlives">Lives: 6</div>
+        <div id="currentGuess"></div>
+        <div id="character">
+            <div id="head"></div>
+            <div id="body"></div>
+            <div id="rightarm"></div>
+            <div id="rightleg"></div>
+            <div id="leftarm"></div>
+            <div id="leftleg"></div>
+            <div id="crane1"></div>
+            <div id="crane2"></div>
+            <div id="crane3"></div>
+            <div id="crane4"></div>
+        </div>
+        <div id="keyboard">
+            <button data-letter = "a" class="letter">a</button>
+            <button data-letter = "b" class="letter">b</button>
+            <button data-letter = "c" class="letter">c</button>
+            <button data-letter = "d" class="letter">d</button>
+            <button data-letter = "e" class="letter">e</button>
+            <button data-letter = "f" class="letter">f</button>
+            <button data-letter = "g" class="letter">g</button>
+            <button data-letter = "h" class="letter">h</button>
+            <button data-letter = "i" class="letter">i</button>
+            <button data-letter = "j" class="letter">j</button>
+            <button data-letter = "k" class="letter">k</button>
+            <button data-letter = "l" class="letter">l</button>  
+            <button data-letter = "m" class="letter">m</button>
+            <button data-letter = "n" class="letter">n</button>
+            <button data-letter = "o" class="letter">o</button>
+            <button data-letter = "p" class="letter">p</button>
+            <button data-letter = "q" class="letter">q</button>
+            <button data-letter = "r" class="letter">r</button>
+            <button data-letter = "s" class="letter">s</button>
+            <button data-letter = "t" class="letter">t</button>
+            <button data-letter = "u" class="letter">u</button>
+            <button data-letter = "v" class="letter">v</button>
+            <button data-letter = "w" class="letter">w</button>
+            <button data-letter = "x" class="letter">x</button>  
+            <button data-letter = "y" class="letter">y</button>
+            <button data-letter = "z" class="letter">z</button>
+            </div>
+    </div>
+    <p></p>
+
+    
+    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+</body>
+</html>

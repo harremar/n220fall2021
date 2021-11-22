@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="background">
+        <div id="title">Tic - Tac - Toe</div>
+    <div id="table">
+        <div data-spot = "1" class="spot"></div>
+        <div data-spot = "2" class="spot"></div>
+        <div data-spot = "3" class="spot"></div>
+    
+        <div data-spot = "4" class="spot"></div>
+        <div data-spot = "5" class="spot"></div>
+        <div data-spot = "6" class="spot"></div>
+    
+        <div data-spot = "7" class="spot"></div>
+        <div data-spot = "8" class="spot"></div>
+        <div data-spot = "9" class="spot"></div>
+
+        <div id="winner"></div>
+        <button id = "resetButton" onclick="resetGame(spot)"> Do you want to play again?</button>
+
+        <div class="winner-holder">
+            <div id="user">Player 1: 0 </div>
+            <div id="computer">Player 2: 0 </div>
+        </div>
+        <div class="winner-holder">
+            <div id="tie">Tie: 0 </div>
+        </div>
+        
+    </div>
+    <div id="gameovercover"></div>
+    </div>
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
